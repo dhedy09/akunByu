@@ -1,0 +1,49 @@
+proxies:
+- name: 🇸🇬JAGOAN SGCV
+  server: 162.159.128.79
+  port: 443
+  type: vless
+  uuid: 8593a422-38dc-4193-9975-138b50730599
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: space.byu.id
+  network: ws
+  ws-opts:
+    path: wss://space.byu.id/jagoanssh
+    headers:
+      Host: sgcvless.ipservers.xyz
+  udp: true
+  mux: true
+- name: 🇸🇬JAGOAN SG1
+  server: 104.17.2.81
+  port: 443
+  type: vless
+  uuid: 37035b39-fa30-44c5-b268-1f5cf1ac9d3e
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/jagoanssh
+    headers:
+      Host: sg1vless.ipservers.xyz
+  udp: true
+  mux: true
+- name: 🇸🇬OCEAN SG1CTB
+  server: 162.159.128.79
+  port: 443
+  type: vless
+  uuid: 9f892a4a-5b4f-4bf7-acf8-c3f20bbde94f
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: space.byu.id
+  network: ws
+  ws-opts:
+    path: wss://space.byu.id/websocket
+    headers:
+      Host: sg1-ctb-ws.xvless.xyz
+  udp: true
+  mux: true
