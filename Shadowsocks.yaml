@@ -1,0 +1,19 @@
+proxies:
+- name: "🇸🇬INFINITY"
+  type: ss
+  server: 162.159.128.79
+  port: 443
+  cipher: aes-128-gcm
+  password: b8458948-a630-4e6d-809a-230b2223ff3d
+  plugin: v2ray-plugin
+  udp: true
+  plugin-opts:
+   mode: websocket
+   tls: true
+   skip-cert-verify: true
+   sni: space.byu.id
+   path: ws://space.byu.id/xrayssws
+   mux: false
+   headers:
+    host: infinity.mantapxsl.my.id
+  mux: true
