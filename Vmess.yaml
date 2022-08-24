@@ -1,0 +1,35 @@
+proxies:
+- name: 🇸🇬SSH KIT
+  server: 162.159.128.79
+  port: 443
+  type: vmess
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: space.byu.id
+  network: ws
+  ws-opts:
+    path: wss://space.byu.id/sshkit/380213065/62f1280a6e924/
+    headers:
+      Host: sg1-v2ray.sshkit.org
+  udp: true
+  mux: true
+- name: 🇮🇩OCEAN 4
+  server: 104.17.2.81
+  port: 443
+  type: vmess
+  uuid: a8af8a2d-9211-4cbd-bcf2-21fbbd901c0c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: api.midtrans.com
+  network: ws
+  ws-opts:
+    path: wss://api.midtrans.com/sshocean
+    headers:
+      Host: id4.v2rayserv.com
+  udp: true
+  mux: true
