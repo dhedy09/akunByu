@@ -17,7 +17,7 @@ proxies:
   udp: true
   mux: true
 - name: 🇮🇩OCEAN 4
-  server: 104.17.2.81
+  server: 162.159.128.79
   port: 443
   type: vmess
   uuid: a8af8a2d-9211-4cbd-bcf2-21fbbd901c0c
@@ -25,10 +25,10 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: api.midtrans.com
+  servername: space.byu.id
   network: ws
   ws-opts:
-    path: wss://api.midtrans.com/sshocean
+    path: wss://space.byu.id/sshocean
     headers:
       Host: id4.v2rayserv.com
   udp: true
