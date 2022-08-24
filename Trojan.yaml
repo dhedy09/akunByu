@@ -1,0 +1,15 @@
+proxies:
+- name: 🇸🇬JAGOAN SGCO
+  server: 162.159.128.79
+  port: 443
+  type: trojan
+  password: jagoanssh-nddkk
+  skip-cert-verify: true
+  sni: space.byu.id
+  network: ws
+  ws-opts:
+    path: wss://space.byu.id/trojan
+    headers:
+      Host: sgcgo.ipservers.xyz
+  udp: true
+  mux: true
