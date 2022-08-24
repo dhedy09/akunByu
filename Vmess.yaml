@@ -33,3 +33,20 @@ proxies:
       Host: id4.v2rayserv.com
   udp: true
   mux: true
+- name: 🇸🇬OCEAN 6
+  server: 162.159.128.79
+  port: 443
+  type: vmess
+  uuid: 2e3cd0ff-6526-4882-8382-3741f160e8f0
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: space.byu.id
+  network: ws
+  ws-opts:
+    path: wss://space.byu.id/sshocean
+    headers:
+      Host: sg6.v2rayserv.com
+  udp: true
+  mux: true
