@@ -13,3 +13,17 @@ proxies:
       Host: sgcgo.ipservers.xyz
   udp: true
   mux: true
+- name: 🇮🇩BISNET
+  server: 162.159.128.79
+  port: 443
+  type: trojan
+  password: 3986dd90-2369-11ed-991e-1239d0255272
+  skip-cert-verify: true
+  sni: space.byu.id
+  network: ws
+  ws-opts:
+    path: wss://space.byu.id/howdy
+    headers:
+      Host: id5-trojan.bonds.id
+  udp: true
+  mux: true
