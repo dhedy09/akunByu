@@ -50,3 +50,20 @@ proxies:
       Host: sg6.v2rayserv.com
   udp: true
   mux: true
+- name: 🇸🇬RACE
+  server: 162.159.128.79
+  port: 443
+  type: vmess
+  uuid: 281fb6d6-a898-4e03-a58f-7dd950cf9f84
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: space.byu.id
+  network: ws
+  ws-opts:
+    path: wss://space.byu.id/racevpn
+    headers:
+      Host: sg2-full.privateip.net
+  udp: true
+  mux: true
