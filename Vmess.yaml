@@ -1,6 +1,9 @@
+bug:
+- &BUG0 104.17.2.81
+- &BUG1 104.17.3.81
 proxies:
 - name: 🇸🇬SSH KIT
-  server: 162.159.128.79
+  server: *BUG1
   port: 443
   type: vmess
   uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
@@ -8,16 +11,16 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: space.byu.id
+  servername: api.midtrans.com
   network: ws
   ws-opts:
-    path: wss://space.byu.id/sshkit/380213065/62f1280a6e924/
+    path: wss://api.midtrans.com/sshkit/380213065/62f1280a6e924/
     headers:
       Host: sg1-v2ray.sshkit.org
   udp: true
   mux: true
 - name: 🇮🇩OCEAN 4
-  server: 162.159.128.79
+  server: *BUG0
   port: 443
   type: vmess
   uuid: a8af8a2d-9211-4cbd-bcf2-21fbbd901c0c
@@ -25,16 +28,16 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: space.byu.id
+  servername: api.midtrans.com
   network: ws
   ws-opts:
-    path: wss://space.byu.id/sshocean
+    path: wss://api.midtrans.com/sshocean
     headers:
       Host: id4.v2rayserv.com
   udp: true
   mux: true
 - name: 🇸🇬OCEAN 6
-  server: 162.159.128.79
+  server: *BUG1
   port: 443
   type: vmess
   uuid: 2e3cd0ff-6526-4882-8382-3741f160e8f0
@@ -42,16 +45,16 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: space.byu.id
+  servername: api.midtrans.com
   network: ws
   ws-opts:
-    path: wss://space.byu.id/sshocean
+    path: wss://api.midtrans.com/sshocean
     headers:
       Host: sg6.v2rayserv.com
   udp: true
   mux: true
 - name: 🇸🇬RACE
-  server: 162.159.128.79
+  server: *BUG1
   port: 443
   type: vmess
   uuid: 281fb6d6-a898-4e03-a58f-7dd950cf9f84
@@ -59,10 +62,10 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: space.byu.id
+  servername: api.midtrans.com
   network: ws
   ws-opts:
-    path: wss://space.byu.id/racevpn
+    path: wss://api.midtrans.com/racevpn
     headers:
       Host: sg2-full.privateip.net
   udp: true
